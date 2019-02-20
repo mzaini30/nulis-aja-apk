@@ -1,2 +1,1 @@
-# nulis-aja-apk
-APK - mencatat progress menulis buku
+Mencatat progress menulis buku baik itu fiksi maupun nonfiksi
