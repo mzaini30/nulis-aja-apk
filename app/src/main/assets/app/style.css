@@ -2,27 +2,19 @@ body {
 	padding-top: 70px;
 }
 
-.atur-tinggi {
-	min-height: 800px;
+.container {
+	max-width: 800px;
 }
 
-.navbar-collapse li hr {
-	margin: 0;
+.angka {
+	color: rgba(153, 102, 255, 1);
 }
 
-table tr:first-child td {
-	border-top: none;
+.panel-angka {
+	border-color: rgba(255, 206, 86, 0.6);
 }
 
-.isi {
-	font-weight: bold;
-}
-.selesai {
-	text-decoration: line-through;
+.quote {
+	text-align: right;
 	font-style: italic;
-	font-weight: normal;
-}
-
-.cek-container {
-	width: 52.8px;
 }
