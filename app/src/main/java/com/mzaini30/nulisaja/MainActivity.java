@@ -5,7 +5,9 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.content.Context;
 import android.view.KeyEvent;
+// import android.view.View;
 import android.webkit.URLUtil;
+// import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
@@ -33,14 +35,24 @@ public class MainActivity extends AppCompatActivity {
         mAdView.loadAd(adRequest);
 
         WebView webview = (WebView) findViewById(R.id.webview);
+        // webview.setLayerType(View.LAYER_TYPE_SOFTWARE, null);
         WebSettings webSettings = webview.getSettings();
         webSettings.setJavaScriptEnabled(true);
         webSettings.setDatabaseEnabled(true);
+
+        // settings.setJavaScriptEnabled(true);
+        // settings.setDomStorageEnabled(true);
+        // webSettings.setAllowUniversalAccessFromFileURLs(true);
+        // webSettings.setAllowFileAccessFromFileURLs(true);
+        // webSettings.setCacheMode(WebSettings.LOAD_NO_CACHE);
+        
         String databasePath = this.getApplicationContext().getDir("database", Context.MODE_PRIVATE).getPath();
         webSettings.setDatabasePath(databasePath);
         webSettings.setDomStorageEnabled(true);
+        webSettings.setSupportMultipleWindows(true); // enable chrome client?
 //        setContentView(webview);
-
+        
+        // webview.setWebChromeClient(new WebChromeClient());
         webview.setWebViewClient(new WebViewClient() {
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, String url) {
