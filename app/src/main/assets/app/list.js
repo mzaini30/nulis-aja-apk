@@ -1,88 +1,24 @@
-nama = [
-	'Agus Heri Widodo',
-	'Ake Aulia Fitriana',
-	'Alfi Bahaviani',
-	'Alif Kiky Listiyati',
-	'Amie Oktiningsih Pamungkas',
-	'Andin Rahma Yulita',
-	'Arin Gudesma',
-	'Betty Irwanti, S.Pd.Sd',
-	'Danang Saputra',
-	'Devi Aulia Utami',
-	'Dian Fajar Rahmahyani Aprilia',
-	'Dilia Agustina',
-	'Dini Fauziah Gufron',
-	'Dita Dyah Saraswati',
-	'Dunyati Ilmiah',
-	'Dwi Budidarma',
-	'Dymar Mahafa',
-	'Elin Dwi Sulistyowati',
-	'Estina',
-	'Ezza Tania',
-	'Fatkhiatur Rohmah',
-	'Fatma Nofriyanti',
-	'Florensia Prihandini',
-	'Herdiawan Dwi Septiyana',
-	'Heru Widayanto',
-	'Hiday Nur',
-	'Ika Yudaningrum',
-	'Ilham Rahmanto',
-	'Irma Anggraini Adi',
-	'Irma Sari',
-	'Ismaniar',
-	'Isnaini Annisa',
-	'Juni Dwi Riyanti',
-	'Lia Anelia Nuraini',
-	'Lia Atis Sasmita',
-	'M. Saepudin',
-	'Moch Akbar Maulana',
-	'MS Wijaya',
-	'Muslikhotin',
-	'Muthya Sadeea',
-	'NA Fadli',
-	'Nimas Kesumo Zuhdiyah',
-	'Nining Purwanti',
-	'Nova DW',
-	'Novia Anggraini',
-	'Nur Ishaq',
-	'Nur Musabikah',
-	'Nurul Hidayah',
-	'Opsi 58',
-	'Pebri Ika Ndani',
-	'Rahayu',
-	'Raisha Nafisa',
-	'Rindang Yuliani',
-	'Riovani Dian Putri',
-	'Rofikoh Yuliyanti',
-	'Sakifah',
-	'Setya Romana',
-	'Shinta Dewi Wijiarti',
-	'Silvana Devinta Sari',
-	'Siti Maesaroh',
-	'Siti Rokhanah',
-	'Sri Lestari / El-Lisa',
-	'Suparto',
-	'Ulfi',
-	'Vinny Martina',
-	'Wakhid Syamsudin',
-	'Walimin',
-	'Widhyanua Sarjana Aryandari',
-	'Winarto Sabdo',
-	'Winda',
-	'Wiwid NW',
-	'Wiwin Asriningrum',
-	'Yeti Nuryeti',
-	'Yogi Riyansyah Suaji',
-	'Yolanda Triana Putri',
-	'Yuliani'
-]
-
-genre = [
-	'Fiksi',
-	'NonFiksi'
-]
-
 quote = [
+	[
+		'Writing is not figure skating or skiing. Your mother will not make you a writer. My advice to any young person who wants to write is: leave home.',
+		'Paul Theroux'
+	],
+	[
+		'Ikatlah ilmu dengan menulis.',
+		'Ali Bin Abi Thalib ra'
+	],
+	[
+		'Satu hari satu halaman, lama-lama jadi buku.. yeyy',
+		'Tanpa Nama'
+	],
+	[
+		'Tidak mengumpulkan 3x 2 minggu sama dengan gugur.',
+		'Hiday Nur'
+	],
+	[
+		'Bolong 10 kali (tidak nulis dan tidak laporan) sama dengan gugur, tidak like dan tag friends di medsos 10 kali sama dengan gugur.',
+		'Hiday Nur'
+	],
 	[
 		'Badan bisa mati, tulisanmu abadi.',
 		'Hiday Nur'
@@ -92,8 +28,44 @@ quote = [
 		'Zen'
 	],
 	[
+		'Well, mungkin aku tak seperti dirimu yang mampu merangkai kata hingga mengguncang semesta. Yang ku bisa hanya menyulam kata sederhana; hingga mampu merangkul keluh-kesahmu.',
+		'Zen'
+	],
+	[
+		'Lihatlah karyaku.',
+		'Zen'
+	],
+	[
 		'Ayo semangat, 1 bab lagi bukumu akan selesai.',
 		'Tanpa Nama'
+	],
+	[
+		'Jangan berusaha menjadi orang lain untuk menjadi aku.',
+		'Nur Musabikah'
+	],
+	[
+		'Mantan kekasih persis seperti utang, kita tidak pernah betul-betul melupakannya. Kita hanya selalu pura-pura melupakannya.',
+		'M. Aan Mansyur'
+	],
+	[
+		'Mulailah menulis, jangan berpikir. Berpikir itu nanti saja. Yang penting menulis dulu. Tulis draft pertamamu itu dengan hati. Baru nanti kau akan menulis ulang dengan kepalamu. Kunci utama menulis adalah menulis, bukannya berpikir.',
+		'James Whitfield Ellison'
+	],
+	[
+		'Menulis adalah mencipta, dalam suatu penciptaan seseorang mengarahkan tidak hanya semua pengetahuan, daya, dan kemampuannya saja, tetapi ia sertakan seluruh jiwa dan nafas hidupnya.',
+		'Stephen King'
+	],
+	[
+		'Menulis merangsang pemikiran, jadi saat anda tidak bisa memikirkan sesuatu untuk di tulis, tetaplah mencoba untuk menulis.',
+		'Barbara'
+	],
+	[
+		'Kalau kamu bukan anak raja dan engkau bukan anak ulama besar, maka jadilah penulis.',
+		'Imam Al-Ghazali'
+	],
+	[
+		'If you do not breathe through writing, if you do not cry out in writing, or sing in writing, then don’t write, because our culture has no use for it.',
+		'Anaïs Nin'
 	],
 	[
 		'Dengan membaca aku melihat dunia, dengan menulis aku berpesan untuk dunia',
